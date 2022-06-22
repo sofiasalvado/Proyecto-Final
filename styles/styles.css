@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(138, 99, 165);
+    display: flex;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color:rgb(154, 199, 229);
+   
+}
+
+.nav-link :hover {
+    color: black ;
+}
+
+.nav-item .nav-link.active {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+   
+}
+
+.imagenFondo{
+    background-image: url('../img/stickers.jpeg');
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    font-size: 24px;
+    
+
+}
+
+.imagenFondo h4 {
+    color: white;
+    margin: 0;
+    background-color: rgb(138, 99, 165);
+    border-radius: 2px;
+    padding: 10px;
+
+       
+    }
+.consulta{
+    color: white ;
+    margin: 0;
+    background-color:rgb(140, 186, 198);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.chusmeame {
+    display: block;
+    margin: 30px;
+    margin: 0;
+    background-color:rgb(140, 186, 198);
+    border-radius: 2px;
+    padding: 10px;
+    gap: 10px;
+
+}
+.imagenes {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(123, 90, 134);
+}
+
+.imagen{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.tarjetitas {
+    padding-block: 50px;
+}
+
+.card {
+    background-color: rgb(140, 186, 198);
+}
+
+.botonPersonalizado {
+    background-color: rgb(138, 99, 165);
+    border-color: rgb(138, 99, 165);
+}
+
+.botonPersonalizado:hover {
+    background-color: white;
+    border-color: rgb(140, 186, 198);
+    color: rgb(140, 186, 198);
+
+}
+
+.footer {
+    padding-block: 15px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.formulario {
+    padding-block: 30px ;
+    background-image: url('../img/stickers\ en\ libro.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    }
+
+.whatsapp {
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+.parrafoenvios {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cardsEnvios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+
+.cardEnvios {
+    background-color: #89a7c1;
+    padding: 10px;
+}
+
+.card__envio {
+    display: grid;
+    max-width: 100%;
+
+}
+
+.parrafosobrecarolasss {
+    display: grid;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenCarolaCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+}
+
+.imagenCarola1 {
+    background-color: #89a7c1;
+    padding: 10px;
+}
+
+.imagenCarola {
+    display: grid;
+    max-width: 100%;
+    transform: translateX(30px);
+    width: 500px ;
+    height: 500px;
+}
+
+.tarjetitasproductos {
+    padding-block: 50px;
+}
+
+.cardProduct {
+    background-color: rgb(140, 186, 198);
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "inicio sobre productos"
+        "inicio contacto envios";
+}
+
+
+
+
+
+nav {
+    flex-grow: 1;
+}
+
+.menu__item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__item a {
+    color: #FFFF;
+    text-decoration: none;
+
+}
+
+.item_inicio {
+    background-color: rgb(123, 90, 134);
+    grid-area: inicio;
+}
+
+.item_sobre {
+    background-color: rgb(180, 124, 124);
+    grid-area: sobre;
+
+}
+
+.item_productos {
+    background-color: rgb(127, 156, 180);
+    grid-area: productos;
+}
+
+.item_contacto {
+    background-color: rgb(199, 159, 115);
+    grid-area: contacto;
+}
+
+.item_envios {
+    background-color: rgb(119, 191, 168);
+    grid-area: envios;
+}
+.formContacto {
+    background-color: rgba(123, 90, 134, 0.8);
+    padding: 20PX;
+    border-radius: 3px;
+    color: white;
+}
+
+.breadcrumbsFondo {
+    color: rgb(123, 90, 134, 0.8) ;
+}
+@media screen and (max-width: 648px) {
+    .menu{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "inicio sobre"
+            "inicio productos"
+            "inicio contacto"
+            "inicio envios";
+}
+    .imagenCarolaCards{
+        grid-template-columns: 1fr;
+        
+       
+    
+    }
+
+    .imagenCarola{
+        transform: translateX(20px);
+        max-width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 
+
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cardProduct {
+        width: 90%;
+        display: block;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .formulario__campo {
+        max-width: 100%;
+
+    }
+}
+
+
+@media screen and (maw-width: 768px) {
+    .card {
+        margin-bottom: 30px;
+    }
+}
