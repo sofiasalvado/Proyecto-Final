@@ -127,14 +127,6 @@
   font-size: 24px;
 }
 
-.imagenFondo .h4 {
-  color: white;
-  margin: 0;
-  background-color: #8a63a5;
-  border-radius: 2px;
-  padding: 10px;
-}
-
 .imagenFondo h4 {
   color: white;
   margin: 0;
@@ -206,14 +198,6 @@
           align-items: center;
   background-attachment: fixed;
   font-size: 24px;
-}
-
-.imagenFondo .h4 {
-  color: white;
-  margin: 0;
-  background-color: #8a63a5;
-  border-radius: 2px;
-  padding: 10px;
 }
 
 .imagenFondo h4 {
