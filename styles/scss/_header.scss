@@ -1,0 +1,84 @@
+.navbar {
+    background-color: $violeta;
+
+    .nav-item {
+
+        .nav-link { 
+            color: #FFFF;
+
+            &:hover {
+                color: rgb(154, 199, 229);
+            }
+
+            &.active {
+                color: white;
+                font-weight: 600;
+                text-decoration: underline;
+
+            }
+
+        }
+    }
+
+
+    
+
+    .menu__item {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .a {
+            
+                color: #FFFF;
+                text-decoration: none;
+            
+        }
+        
+
+    }
+    .item_inicio {
+        background-color: rgb(123, 90, 134);
+        grid-area: inicio;
+    }
+    
+    .item_sobre {
+        background-color: rgb(180, 124, 124);
+        grid-area: sobre;
+    
+    }
+    
+    .item_productos {
+        background-color: rgb(127, 156, 180);
+        grid-area: productos;
+    }
+    
+    .item_contacto {
+        background-color: rgb(199, 159, 115);
+        grid-area: contacto;
+    }
+    
+    .item_envios {
+        background-color: rgb(119, 191, 168);
+        grid-area: envios;
+    }
+}
+
+.nav {
+    
+    flex-grow: 1;
+
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "inicio sobre productos"
+        "inicio contacto envios";
+}

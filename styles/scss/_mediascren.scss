@@ -1,0 +1,54 @@
+@media screen and (max-width: 648px) {
+    .menu{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "inicio sobre"
+            "inicio productos"
+            "inicio contacto"
+            "inicio envios";
+}
+    .imagenCarolaCards{
+        grid-template-columns: 1fr;
+        
+       
+    
+    }
+
+    .imagenCarola{
+        transform: translateX(20px);
+        max-width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 
+
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cardProduct {
+        width: 90%;
+        display: block;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .formulario__campo {
+        max-width: 100%;
+
+    }
+}
+
+
+@media screen and (maw-width: 768px) {
+    .card {
+        margin-bottom: 30px;
+    }
+}

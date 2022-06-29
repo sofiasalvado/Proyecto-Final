@@ -1,0 +1,12 @@
+.botonPersonalizado {
+    background-color: $violeta;
+    border-color: $violeta;
+
+    &:hover {
+        background-color: white;
+        border-color: $jade;
+        color: $jade;
+
+    }
+}
+

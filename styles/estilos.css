@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.botonPersonalizado {
+  background-color: #7b5a86;
+  border-color: #7b5a86;
+}
+
+.botonPersonalizado:hover {
+  background-color: white;
+  border-color: #8cbac6;
+  color: #8cbac6;
+}
+
+.navbar {
+  background-color: #7b5a86;
+}
+
+.navbar .nav-item .nav-link {
+  color: #FFFF;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #9ac7e5;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.navbar .menu__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .menu__item .a {
+  color: #FFFF;
+  text-decoration: none;
+}
+
+.navbar .item_inicio {
+  background-color: #7b5a86;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: inicio;
+}
+
+.navbar .item_sobre {
+  background-color: #b47c7c;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: sobre;
+}
+
+.navbar .item_productos {
+  background-color: #7f9cb4;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: productos;
+}
+
+.navbar .item_contacto {
+  background-color: #c79f73;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: contacto;
+}
+
+.navbar .item_envios {
+  background-color: #77bfa8;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: envios;
+}
+
+.nav {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.5fr 1.5fr;
+      grid-template-columns: 1fr 1.5fr 1.5fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "inicio sobre productos" "inicio contacto envios";
+}
+
+.imagenFondo {
+  background-image: url("../img/stickers.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  font-size: 24px;
+}
+
+.imagenFondo .h4 {
+  color: white;
+  margin: 0;
+  background-color: #8a63a5;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.imagenFondo h4 {
+  color: white;
+  margin: 0;
+  background-color: #8a63a5;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.tarjetitas {
+  padding-block: 50px;
+}
+
+.tarjetitas .card {
+  background-color: #8cbac6;
+}
+
+.breadcrumbsFondo {
+  color: #7b5a86;
+}
+
+.footer {
+  padding-block: 15px;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.formulario {
+  padding-block: 30px;
+  background-image: url("../img/stickers en libro.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagenes {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #7b5a86;
+}
+
+.imagenFondo {
+  background-image: url("../img/stickers.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  font-size: 24px;
+}
+
+.imagenFondo .h4 {
+  color: white;
+  margin: 0;
+  background-color: #8a63a5;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.imagenFondo h4 {
+  color: white;
+  margin: 0;
+  background-color: #8a63a5;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.5fr 1.5fr;
+      grid-template-columns: 1fr 1.5fr 1.5fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "inicio sobre productos" "inicio contacto envios";
+}
+
+.parrafoenvios {
+  text-align: justify;
+  padding: 20px;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whatsapp {
+  width: 100px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.chusmeame {
+  display: block;
+  margin: 30px;
+  margin: 0;
+  background-color: #8cbac6;
+  border-radius: 2px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.cardsEnvios {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.cardsEnvios .cardEnvios {
+  background-color: #89a7c1;
+  padding: 10px;
+}
+
+.cardsEnvios .cardEnvios .card__envio {
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+}
+
+.imagenCarolaCards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 30px;
+}
+
+.imagenCarolaCards .imagenCarola1 {
+  background-color: #89a7c1;
+  padding: 10px;
+}
+
+.imagenCarolaCards .imagenCarola1 .imagenCarola {
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  width: 500px;
+  height: 500px;
+}
+
+.tarjetitasproductos {
+  padding-block: 50px;
+}
+
+.tarjetitasproductos .cardProduct {
+  background-color: #8cbac6;
+}
+
+.ckeckbox {
+  background-color: #8cbac6;
+  padding-top: 10px;
+}
+
+.ckeckbox #input :checked {
+  height: 10px;
+  width: 10px;
+}
+
+@media screen and (max-width: 648px) {
+  .menu {
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "inicio sobre" "inicio productos" "inicio contacto" "inicio envios";
+  }
+  .imagenCarolaCards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .imagenCarola {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    max-width: 100%;
+  }
+  .cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .cardProduct {
+    width: 90%;
+    display: block;
+  }
+  textarea {
+    max-width: 100%;
+  }
+  .formulario__campo {
+    max-width: 100%;
+  }
+}
+
+@media screen and (maw-width: 768px) {
+  .card {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

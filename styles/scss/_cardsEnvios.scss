@@ -1,0 +1,21 @@
+.cardsEnvios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-start;
+
+    .cardEnvios {
+        background-color: #89a7c1;
+        padding: 10px;
+
+        .card__envio {
+            display: grid;
+            max-width: 100%;
+        
+                     }
+               }
+
+
+
+}
