@@ -1,2 +1,33 @@
 $violeta: rgb(123, 90, 134);
 $jade: rgb(140, 186, 198);
+$margin30: 30px;
+$coloresFondos: (
+    Violeta: $violeta, 
+    Jade: $jade
+
+);
+
+$redes: (
+    envelope: $jade,
+    instagram: $violeta,
+    
+);
+
+$instagram: ( 
+    color: rgb(116, 86, 119),
+    font-size: 24px,
+    
+
+    
+);
+
+@mixin grid($maxwidth, $width, $height){
+    display: grid;
+    max-width: $maxwidth;
+    width: $width ;
+    height: $height;
+
+    
+}
+
+

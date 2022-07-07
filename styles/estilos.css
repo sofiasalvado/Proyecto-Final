@@ -143,6 +143,62 @@
   background-color: #8cbac6;
 }
 
+.tarjetitas .tarjetitasIndex {
+  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.tarjetitas .tarjetitasIndex:nth-child(1) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.tarjetitas .tarjetitasIndex:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.tarjetitas .tarjetitasIndex:nth-child(3) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.fa-envelope {
+  background-color: #8cbac6;
+  padding: 5px;
+}
+
+.fa-instagram {
+  background-color: #7b5a86;
+  padding: 5px;
+}
+
+@-webkit-keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
 .breadcrumbsFondo {
   color: #7b5a86;
 }
@@ -180,6 +236,10 @@
   padding: 30px;
   margin: 30px;
   background-color: #7b5a86;
+}
+
+.imagen {
+  margin: 30px;
 }
 
 .imagenFondo {
@@ -234,12 +294,12 @@
   bottom: 10px;
   right: 10px;
   cursor: pointer;
+  z-index: 2;
 }
 
 .chusmeame {
   display: block;
   margin: 30px;
-  margin: 0;
   background-color: #8cbac6;
   border-radius: 2px;
   padding: 10px;
@@ -259,14 +319,64 @@
 }
 
 .cardsEnvios .cardEnvios {
-  background-color: #89a7c1;
+  -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-bck-center 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   padding: 10px;
+}
+
+.cardsEnvios .cardEnvios:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.cardsEnvios .cardEnvios:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.cardsEnvios .cardEnvios:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.cardsEnvios .cardEnviosVioleta {
+  background-color: #7b5a86;
+}
+
+.cardsEnvios .cardEnviosJade {
+  background-color: #8cbac6;
 }
 
 .cardsEnvios .cardEnvios .card__envio {
   display: -ms-grid;
   display: grid;
   max-width: 100%;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 
 .imagenCarolaCards {
@@ -276,14 +386,36 @@
       grid-template-columns: repeat(3, 1fr);
   padding: 20px;
   gap: 30px;
+  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.imagenCarolaCards .imagenCarola1 {
-  background-color: #89a7c1;
+.imagenCarola1 {
   padding: 10px;
+  -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.imagenCarolaCards .imagenCarola1 .imagenCarola {
+.imagenCarola1:nth-child(1) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.imagenCarola1:nth-child(2) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.imagenCarola1:nth-child(3) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.imagenCarola1Violeta {
+  background-color: #7b5a86;
+}
+
+.imagenCarola1 .imagenCarola {
   display: -ms-grid;
   display: grid;
   max-width: 100%;
@@ -293,12 +425,118 @@
   height: 500px;
 }
 
+.imagenCarola1Jade {
+  background-color: #8cbac6;
+}
+
+.imagenCarola1 .imagenCarola {
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  width: 500px;
+  height: 500px;
+}
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 .tarjetitasproductos {
   padding-block: 50px;
 }
 
 .tarjetitasproductos .cardProduct {
   background-color: #8cbac6;
+}
+
+.tarjetitasproductos .cardProducts {
+  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(6) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.tarjetitasproductos .cardProducts:nth-child(7) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+@-webkit-keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
 }
 
 .ckeckbox {

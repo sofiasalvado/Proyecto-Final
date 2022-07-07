@@ -92,6 +92,8 @@
 .botonPersonalizado {
     background-color: rgb(138, 99, 165);
     border-color: rgb(138, 99, 165);
+
+    
 }
 
 .botonPersonalizado:hover {
@@ -169,6 +171,7 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
     gap: 30px;
+   
 }
 
 .imagenCarola1 {

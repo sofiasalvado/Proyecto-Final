@@ -3,10 +3,30 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
     gap: 30px;
+    -webkit-animation:flip-in-ver-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:flip-in-ver-right .5s cubic-bezier(.25,.46,.45,.94) both;
+
+}
+
 
     .imagenCarola1 {
-        background-color: #89a7c1;
+
         padding: 10px;
+        -webkit-animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
+        animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
+
+        @for $var from 1 through 3 {
+            &:nth-child(#{$var}) {
+                animation-delay: 0.4s * $var;
+            }
+            
+        }
+
+        @each $nombre, $color in $coloresFondos {
+            &#{$nombre} {
+                background-color: $color;
+        
+            }
 
         .imagenCarola {
             display: grid;
@@ -19,3 +39,8 @@
 
     }
 }
+
+    
+
+ @-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+ @keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}

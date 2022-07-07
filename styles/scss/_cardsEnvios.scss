@@ -5,9 +5,30 @@
     gap: 30px;
     align-items: flex-start;
 
+
+
     .cardEnvios {
-        background-color: #89a7c1;
+
+        -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
+        animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
         padding: 10px;
+
+        @for $var from 1 through 3 {
+            &:nth-child(#{$var}) {
+                animation-delay: 0.2s * $var;
+            }
+            
+        }
+
+        @each $nombre, $color in $coloresFondos {
+            &#{$nombre} {
+                background-color: $color;
+        
+            }
+            
+        }
+        
+        
 
         .card__envio {
             display: grid;
@@ -19,3 +40,9 @@
 
 
 }
+
+
+
+ @-webkit-keyframes slide-in-bck-center{0%{-webkit-transform:translateZ(600px);transform:translateZ(600px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+ @keyframes slide-in-bck-center{0%{-webkit-transform:translateZ(600px);transform:translateZ(600px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
