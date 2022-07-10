@@ -29,11 +29,9 @@
             }
 
         .imagenCarola {
-            display: grid;
-            max-width: 100%;
+            @include grid (100%, 500px, 500px);
             transform: translateX(30px);
-            width: 500px ;
-            height: 500px;
+            
         }
 
 

@@ -230,6 +230,18 @@
           align-items: center;
 }
 
+.form-label {
+  background-color: #8cbac6;
+}
+
+.fondoFormulario {
+  background-color: #8cbac6;
+}
+
+.consulta {
+  background-color: #8cbac6;
+}
+
 .imagenes {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -419,10 +431,10 @@
   display: -ms-grid;
   display: grid;
   max-width: 100%;
-  -webkit-transform: translateX(30px);
-          transform: translateX(30px);
   width: 500px;
   height: 500px;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
 }
 
 .imagenCarola1Jade {
@@ -433,10 +445,10 @@
   display: -ms-grid;
   display: grid;
   max-width: 100%;
-  -webkit-transform: translateX(30px);
-          transform: translateX(30px);
   width: 500px;
   height: 500px;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
 }
 
 @-webkit-keyframes slide-in-fwd-center {
