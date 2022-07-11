@@ -293,6 +293,11 @@
       grid-template-areas: "inicio sobre productos" "inicio contacto envios";
 }
 
+.logo {
+  display: -ms-grid;
+  display: grid;
+}
+
 .parrafoenvios {
   text-align: justify;
   padding: 20px;
