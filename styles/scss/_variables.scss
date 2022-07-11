@@ -1,9 +1,10 @@
-$violeta: rgb(123, 90, 134);
-$jade: rgb(140, 186, 198);
-$margin30: 30px;
+$violeta: rgb(242, 152, 171);
+$jade: rgb(151, 166, 213);
+$amarillo: rgb(255, 243, 127);
+
 $coloresFondos: (
     Violeta: $violeta, 
-    Jade: $jade
+    Jade: $jade,
 
 );
 
@@ -14,7 +15,7 @@ $redes: (
 );
 
 $instagram: ( 
-    color: rgb(116, 86, 119),
+    color: $violeta,
     font-size: 24px,
     
 

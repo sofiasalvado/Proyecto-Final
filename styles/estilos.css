@@ -6,18 +6,18 @@
 }
 
 .botonPersonalizado {
-  background-color: #7b5a86;
-  border-color: #7b5a86;
+  background-color: #f298ab;
+  border-color: #f298ab;
 }
 
 .botonPersonalizado:hover {
   background-color: white;
-  border-color: #8cbac6;
-  color: #8cbac6;
+  border-color: #97a6d5;
+  color: #97a6d5;
 }
 
 .navbar {
-  background-color: #7b5a86;
+  background-color: #f298ab;
 }
 
 .navbar .nav-item .nav-link {
@@ -25,7 +25,7 @@
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #9ac7e5;
+  color: #97a6d5;
 }
 
 .navbar .nav-item .nav-link.active {
@@ -55,7 +55,7 @@
 }
 
 .navbar .item_inicio {
-  background-color: #7b5a86;
+  background-color: #f298ab;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -63,28 +63,28 @@
 }
 
 .navbar .item_sobre {
-  background-color: #b47c7c;
+  background-color: #97a6d5;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: sobre;
 }
 
 .navbar .item_productos {
-  background-color: #7f9cb4;
+  background-color: #fff37f;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: productos;
 }
 
 .navbar .item_contacto {
-  background-color: #c79f73;
+  background-color: #fff37f;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: contacto;
 }
 
 .navbar .item_envios {
-  background-color: #77bfa8;
+  background-color: #97a6d5;
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: envios;
@@ -130,7 +130,7 @@
 .imagenFondo h4 {
   color: white;
   margin: 0;
-  background-color: #8a63a5;
+  background-color: #fff37f;
   border-radius: 2px;
   padding: 10px;
 }
@@ -140,7 +140,7 @@
 }
 
 .tarjetitas .card {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .tarjetitas .tarjetitasIndex {
@@ -164,12 +164,12 @@
 }
 
 .fa-envelope {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
   padding: 5px;
 }
 
 .fa-instagram {
-  background-color: #7b5a86;
+  background-color: #f298ab;
   padding: 5px;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .breadcrumbsFondo {
-  color: #7b5a86;
+  background-color: #f298ab;
 }
 
 .footer {
@@ -231,15 +231,11 @@
 }
 
 .form-label {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .fondoFormulario {
-  background-color: #8cbac6;
-}
-
-.consulta {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .imagenes {
@@ -247,7 +243,7 @@
   margin-bottom: 100px;
   padding: 30px;
   margin: 30px;
-  background-color: #7b5a86;
+  background-color: #fff37f;
 }
 
 .imagen {
@@ -275,7 +271,7 @@
 .imagenFondo h4 {
   color: white;
   margin: 0;
-  background-color: #8a63a5;
+  background-color: #fff37f;
   border-radius: 2px;
   padding: 10px;
 }
@@ -294,8 +290,9 @@
 }
 
 .logo {
-  display: -ms-grid;
-  display: grid;
+  max-width: 90%;
+  padding-bottom: 20px;
+  margin: 20px;
 }
 
 .parrafoenvios {
@@ -317,7 +314,7 @@
 .chusmeame {
   display: block;
   margin: 30px;
-  background-color: #8cbac6;
+  background-color: #97a6d5;
   border-radius: 2px;
   padding: 10px;
   gap: 10px;
@@ -357,11 +354,11 @@
 }
 
 .cardsEnvios .cardEnviosVioleta {
-  background-color: #7b5a86;
+  background-color: #f298ab;
 }
 
 .cardsEnvios .cardEnviosJade {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .cardsEnvios .cardEnvios .card__envio {
@@ -429,7 +426,7 @@
 }
 
 .imagenCarola1Violeta {
-  background-color: #7b5a86;
+  background-color: #f298ab;
 }
 
 .imagenCarola1 .imagenCarola {
@@ -443,7 +440,7 @@
 }
 
 .imagenCarola1Jade {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .imagenCarola1 .imagenCarola {
@@ -487,7 +484,7 @@
 }
 
 .tarjetitasproductos .cardProduct {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
 }
 
 .tarjetitasproductos .cardProducts {
@@ -557,7 +554,7 @@
 }
 
 .ckeckbox {
-  background-color: #8cbac6;
+  background-color: #97a6d5;
   padding-top: 10px;
 }
 
@@ -609,9 +606,12 @@
   }
 }
 
-@media screen and (maw-width: 768px) {
+@media screen and (max-width: 768px) {
   .card {
     margin-bottom: 30px;
+  }
+  .imagenFondo {
+    background-attachment: scroll;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

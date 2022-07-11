@@ -7,7 +7,7 @@
             color: #FFFF;
 
             &:hover {
-                color: rgb(154, 199, 229);
+                color: $jade;
             }
 
             &.active {
@@ -39,28 +39,28 @@
 
     }
     .item_inicio {
-        background-color: rgb(123, 90, 134);
+        background-color: $violeta;
         grid-area: inicio;
     }
     
     .item_sobre {
-        background-color: rgb(180, 124, 124);
+        background-color: $jade;
         grid-area: sobre;
     
     }
     
     .item_productos {
-        background-color: rgb(127, 156, 180);
+        background-color: $amarillo;
         grid-area: productos;
     }
     
     .item_contacto {
-        background-color: rgb(199, 159, 115);
+        background-color: $amarillo;
         grid-area: contacto;
     }
     
     .item_envios {
-        background-color: rgb(119, 191, 168);
+        background-color: $jade;
         grid-area: envios;
     }
 }
