@@ -201,13 +201,10 @@
 
 .breadcrumbsFondo {
   background-color: #f298ab;
-  display: block;
+  margin: 0;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
 }
 
 .footer {
