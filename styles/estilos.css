@@ -55,7 +55,7 @@
 }
 
 .navbar .item_inicio {
-  background-color: #f298ab;
+  background-color: #97a6d5;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -63,28 +63,28 @@
 }
 
 .navbar .item_sobre {
-  background-color: #97a6d5;
+  background-color: #f298ab;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: sobre;
 }
 
 .navbar .item_productos {
-  background-color: #fff37f;
+  background-color: #f298ab;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: productos;
 }
 
 .navbar .item_contacto {
-  background-color: #fff37f;
+  background-color: #f298ab;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: contacto;
 }
 
 .navbar .item_envios {
-  background-color: #97a6d5;
+  background-color: #f298ab;
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: envios;
@@ -164,12 +164,12 @@
 }
 
 .fa-envelope {
-  background-color: #97a6d5;
+  background-color: #fff37f;
   padding: 5px;
 }
 
 .fa-instagram {
-  background-color: #f298ab;
+  background-color: #fff37f;
   padding: 5px;
 }
 
@@ -201,6 +201,13 @@
 
 .breadcrumbsFondo {
   background-color: #f298ab;
+  display: block;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .footer {
@@ -228,6 +235,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 10px;
 }
 
 .form-label {
@@ -243,7 +251,7 @@
   margin-bottom: 100px;
   padding: 30px;
   margin: 30px;
-  background-color: #fff37f;
+  background-color: #97a6d5;
 }
 
 .imagen {
@@ -292,7 +300,8 @@
 .logo {
   max-width: 90%;
   padding-bottom: 20px;
-  margin: 20px;
+  margin-top: 30px;
+  background-color: #fff37f;
 }
 
 .parrafoenvios {
@@ -313,6 +322,9 @@
 
 .chusmeame {
   display: block;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   margin: 30px;
   background-color: #97a6d5;
   border-radius: 2px;
@@ -480,7 +492,7 @@
 }
 
 .tarjetitasproductos {
-  padding-block: 50px;
+  margin-top: 10px;
 }
 
 .tarjetitasproductos .cardProduct {

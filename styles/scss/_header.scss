@@ -39,28 +39,28 @@
 
     }
     .item_inicio {
-        background-color: $violeta;
+        background-color: $jade;
         grid-area: inicio;
     }
     
     .item_sobre {
-        background-color: $jade;
+        background-color: $violeta;
         grid-area: sobre;
     
     }
     
     .item_productos {
-        background-color: $amarillo;
+        background-color: $violeta;
         grid-area: productos;
     }
     
     .item_contacto {
-        background-color: $amarillo;
+        background-color: $violeta;
         grid-area: contacto;
     }
     
     .item_envios {
-        background-color: $jade;
+        background-color: $violeta;
         grid-area: envios;
     }
 }
