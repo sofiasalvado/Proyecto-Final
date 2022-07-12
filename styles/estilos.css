@@ -6,8 +6,8 @@
 }
 
 .botonPersonalizado {
-  background-color: #f298ab;
-  border-color: #f298ab;
+  background-color: #ee7654;
+  border-color: #9bcb8b;
 }
 
 .botonPersonalizado:hover {
@@ -130,7 +130,7 @@
 .imagenFondo h4 {
   color: white;
   margin: 0;
-  background-color: #fff37f;
+  background-color: #f3e98d;
   border-radius: 2px;
   padding: 10px;
 }
@@ -164,12 +164,12 @@
 }
 
 .fa-envelope {
-  background-color: #fff37f;
+  background-color: #f3e98d;
   padding: 5px;
 }
 
 .fa-instagram {
-  background-color: #fff37f;
+  background-color: #f3e98d;
   padding: 5px;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .breadcrumbsFondo {
-  background-color: #f298ab;
+  background-color: #f3e98d;
   margin: 0;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
@@ -236,11 +236,11 @@
 }
 
 .form-label {
-  background-color: #97a6d5;
+  background-color: #ee7654;
 }
 
 .fondoFormulario {
-  background-color: #97a6d5;
+  background-color: #ee7654;
 }
 
 .imagenes {
@@ -276,7 +276,7 @@
 .imagenFondo h4 {
   color: white;
   margin: 0;
-  background-color: #fff37f;
+  background-color: #f3e98d;
   border-radius: 2px;
   padding: 10px;
 }
@@ -295,10 +295,13 @@
 }
 
 .logo {
-  max-width: 90%;
+  max-width: 100%;
   padding-bottom: 20px;
   margin-top: 30px;
-  background-color: #fff37f;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  margin: 30px;
 }
 
 .parrafoenvios {
