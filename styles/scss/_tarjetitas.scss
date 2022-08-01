@@ -1,8 +1,6 @@
 .tarjetitas {
     padding-block: 50px;
 
-    
-
     .card {
         background-color: $jade;
     }
@@ -15,19 +13,16 @@
         @for $var from 1 through 3 {
             &:nth-child(#{$var}) {
                 animation-delay: 2s;
-            }
-            
+            }  
         }
-    }
-    
+    }   
 }
 
 @each $red, $color in $redes{
     .fa-#{$red} {
         background-color: $color;
         padding: 5px;
-    }
-    
+    }   
 }
 
 

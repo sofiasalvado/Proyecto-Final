@@ -6,31 +6,24 @@ $verde: rgb(155, 203, 139);
 
 $coloresFondos: (
     Violeta: $violeta, 
-    Jade: $jade,
-
+    Jade: $jade
 );
 
 $redes: (
     envelope: $amarillo,
-    instagram: $amarillo,
-    
+    instagram: $amarillo   
 );
 
 $instagram: ( 
     color: $violeta,
-    font-size: 24px,
-    
-
-    
+    font-size: 24px   
 );
 
 @mixin grid($maxwidth, $width, $height){
     display: grid;
     max-width: $maxwidth;
     width: $width ;
-    height: $height;
-
-    
+    height: $height;   
 }
 
 

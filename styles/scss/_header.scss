@@ -14,7 +14,6 @@
                 color: white;
                 font-weight: 600;
                 text-decoration: underline;
-
             }
 
         }
@@ -32,11 +31,8 @@
         .a {
             
                 color: #FFFF;
-                text-decoration: none;
-            
+                text-decoration: none;  
         }
-        
-
     }
     .item_inicio {
         background-color: $jade;
@@ -46,7 +42,6 @@
     .item_sobre {
         background-color: $violeta;
         grid-area: sobre;
-    
     }
     
     .item_productos {
@@ -68,7 +63,6 @@
 .nav {
     
     flex-grow: 1;
-
 }
 
 .menu {
